@@ -1,10 +1,12 @@
 import React from 'react'
+import logo from "../../src/img/IconeHeader.png"
 
-type Props = {}
-
-const Header = (props: Props) => {
+const Header = () => {
   return (
-    <div>Header</div>
+    <div>
+        <img src={logo} alt="" />
+
+    </div>
   )
 }
 
