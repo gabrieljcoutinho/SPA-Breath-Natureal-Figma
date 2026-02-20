@@ -1,8 +1,10 @@
 @import url('../Fonts//Montserrat.css');
 
-.teste {
+.header {
     display: flex;
     gap: 120px;
+    cursor: pointer;
+    z-index: 10000;
 }
 
 .listaHeader {
@@ -10,19 +12,23 @@
     gap: 100px;
     padding-left: 25rem;
     padding-top: 2rem;
+    cursor: pointer;
 }
 
 .li-linkHeader {
     list-style-type: none;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .linkHeader {
     color: #fff;
     font-family: 'Montserrat';
     text-decoration: none;
+    cursor: pointer;
 }
 
 .linkHeader:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
