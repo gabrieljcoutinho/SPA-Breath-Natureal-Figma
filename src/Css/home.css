@@ -15,7 +15,9 @@ h4 {
     z-index: -11;
 }
 
-.paragrafoPrincipal{
+.paragrafoPrincipal {
     color: #F5F5F5;
     font-family: 'Inter';
+    transform: translate(0px, -2450px);
+    padding-left: 5rem;
 }
