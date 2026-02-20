@@ -1,9 +1,9 @@
 @import url('../Fonts/Inter.css');
 
 h4 {
-    color: #FFFFFF;
+    color: #F5F5F5;
     font-family: 'Inter';
-    font-size: 100px;
+    font-size: 80px;
     transform: translate(0px, -90px);
     padding-left: 5rem;
 }
