@@ -5,6 +5,7 @@
 
 .listaHeader {
     display: flex;
+    gap: 20px;
 }
 
 .li-linkHeader {
