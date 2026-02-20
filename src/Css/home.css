@@ -3,5 +3,7 @@
 h4 {
     color: #FFFFFF;
     font-family: 'Inter';
-    font-size: 40px;
+    font-size: 100px;
+    transform: translate(0px, -90px);
+    padding-left: 5rem;
 }
