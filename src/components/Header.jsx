@@ -8,10 +8,10 @@ const Header = () => {
     <div className='teste'>
         <ul className='listaHeader'>
         <img src={logo} alt="" />
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Plantys Type</a></li>
-          <li><a href="#">More</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#" className='linkHeader'>Home</a></li>
+          <li><a href="#" className='linkHeader'>Plantys Type</a></li>
+          <li><a href="#" className='linkHeader'>More</a></li>
+          <li><a href="#" className='linkHeader'>Contact</a></li>
         </ul>
 
     </div>
