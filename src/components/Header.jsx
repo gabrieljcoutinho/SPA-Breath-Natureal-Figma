@@ -1,14 +1,13 @@
 import React from 'react'
 import logo from "../../src/img/IconeHeader.png"
 
-import "../Css/header.module.css"
+import "../Css/header.css"
 
 const Header = () => {
   return (
-    <div className='header'>
+    <div className='teste'>
+        <ul className='listaHeader'>
         <img src={logo} alt="" />
-
-        <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Plantys Type</a></li>
           <li><a href="#">More</a></li>
