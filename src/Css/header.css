@@ -1,3 +1,8 @@
+.teste {
+    display: flex;
+    gap: 120px;
+}
+
 .listaHeader {
     display: flex;
 }
