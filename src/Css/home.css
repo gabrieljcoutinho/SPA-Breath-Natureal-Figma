@@ -1,3 +1,6 @@
+@import url('../Fonts/Inter.css');
+
 h4 {
-    color: red;
+    color: #FFFFFF;
+    font-family: 'Inter';
 }
