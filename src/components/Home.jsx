@@ -1,9 +1,12 @@
 import React from 'react'
-
+import "../Css/home.css"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+
+        <h4>Homsdfasdfsade</h4>
+    </div>
   )
 }
 
