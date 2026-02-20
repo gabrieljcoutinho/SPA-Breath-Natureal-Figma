@@ -20,4 +20,9 @@
 .linkHeader {
     color: #fff;
     font-family: 'Montserrat';
+    text-decoration: none;
+}
+
+.linkHeader:hover {
+    text-decoration: underline;
 }
