@@ -1,3 +1,9 @@
 .listaHeader {
     display: flex;
 }
+
+.linkHeader {
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none;
+}
