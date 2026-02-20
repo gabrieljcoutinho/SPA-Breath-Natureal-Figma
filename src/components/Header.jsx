@@ -6,6 +6,13 @@ const Header = () => {
     <div>
         <img src={logo} alt="" />
 
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Plantys Type</a></li>
+          <li><a href="#">More</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
     </div>
   )
 }
