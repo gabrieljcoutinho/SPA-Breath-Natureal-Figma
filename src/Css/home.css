@@ -10,7 +10,7 @@ h4 {
 }
 
 .imgArvore {
-    transform: translate(300px, -750px);
+    transform: translate(300px, -800px);
     width: 1500px;
     z-index: -11;
 }
