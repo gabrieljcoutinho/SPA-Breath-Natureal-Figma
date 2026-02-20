@@ -7,7 +7,9 @@
 
 .listaHeader {
     display: flex;
-    gap: 20px;
+    gap: 100px;
+    padding-left: 25rem;
+    padding-top: 2rem;
 }
 
 .li-linkHeader {
