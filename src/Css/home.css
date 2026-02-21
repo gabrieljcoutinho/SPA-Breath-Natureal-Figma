@@ -91,15 +91,21 @@ h4 {
 }
 
 /* Imagem flutuante */
+/* Imagem flutuante */
 .imgComprarImgPrincipal {
-    width: 280px;
+    /* Aumente o width para o tamanho desejado (ex: 150px ou 180px) */
+    width: 160px;
     height: auto;
     filter: drop-shadow(0 20px 30px rgba(0,0,0,0.3));
 
-    /* Faz a planta "sair" para fora do card no topo */
-    margin-top: -140px;
-    margin-bottom: 10px;
+    /* Posicionamento absoluto para não afetar o layout da div */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -70%); /* Centraliza e sobe a imagem */
+
     transition: transform 0.5s ease;
+    z-index: 10; /* Garante que fique acima de tudo */
 }
 
 .buyPlant:hover .imgComprarImgPrincipal {
