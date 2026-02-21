@@ -3,6 +3,8 @@ import "../Css/home.css"
 
 import imgFundoArvores from "../img/fundoInicialComImagem.png"
 
+import plantBuyNow from "../img/plantBuyNow.png"
+
 const Home = () => {
   return (
     <div>
@@ -15,6 +17,7 @@ const Home = () => {
 
 
       <div className="buyPlant">
+        <img src={plantBuyNow} alt="" />
             <p>Trendy House Plant</p>
             <h2>Calathea Plant</h2>
             <button>Buy Now</button>
