@@ -28,4 +28,6 @@ h4 {
     font-family: Inter;
     color: #fff;
     border: 10px solid red;
+    background-color: transparent;
+    opacity: 0.4;
 }
