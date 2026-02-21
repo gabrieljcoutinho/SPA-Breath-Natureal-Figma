@@ -21,7 +21,11 @@ const Home = () => {
            <div className="movimetnacaoConteudoDentroDiv">
            <p>Trendy House Plant</p>
             <h2>Calathea Plant</h2>
-            <button>Buy Now</button>
+
+          <div className="movimetnaçãoBtn">
+          <button>Buy Now</button>
+          </div>
+
            </div>
       </div>
 
