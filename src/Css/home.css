@@ -178,4 +178,6 @@ h4 {
 
 .imgEnome {
     display: flex;
+    gap: 20px;
+    transform: translate(-50px, -18px);
 }
