@@ -280,9 +280,6 @@ h5 {
 
 
 
-
-
-
 .promocaoPlanta2 {
     border: 1px solid rgba(255, 255, 255, 0.2);
     background: rgba(255, 255, 255, 0.1);
@@ -293,10 +290,7 @@ h5 {
     transform: translate(200px, -2800px);
 }
 
-.conteudo2 {
-    transform: translate(-00px, -910px);
-    padding-left: 45rem;
-}
+
 
 .paragrafoSegundaCompra{
     color: #fff;
@@ -344,4 +338,10 @@ h5 {
 
 .imgPromocao2{
     transform: translate(-00px, -910px);
+}
+
+
+.conteudo2 {
+    transform: translate(-00px, -910px);
+    padding-left: 45rem;
 }
