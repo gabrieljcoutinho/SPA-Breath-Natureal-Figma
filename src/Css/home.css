@@ -221,7 +221,11 @@ h4 {
     transform: translate(-150px, -400px);
 }
 
-.conteudo{
+.conteudo {
     transform: translate(0px, -850px);
     padding-left: 45rem;
+}
+
+h5 {
+    color: #fff;
 }
