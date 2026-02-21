@@ -71,29 +71,23 @@ h4 {
 .buyPlant {
     font-family: 'Inter', sans-serif;
     color: #fff;
-    /* Cor do texto */
 
-    /* Retângulo em pé com bordas bem arredondadas */
     width: 300px;
-    padding: 40px 20px;
+    /* Reduzi o padding de 40px para 20px (topo/baixo) */
+    padding: 20px 20px;
     border-radius: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    /* Borda fina e suave */
 
-    /* Efeito de Fundo Branco Opaco (Glassmorphism) */
     background: rgba(255, 255, 255, 0.15);
-    /* Branco com 15% de opacidade */
     backdrop-filter: blur(15px);
-    /* Desfoca o que está atrás do fundo */
     -webkit-backdrop-filter: blur(15px);
-    /* Suporte para Safari */
 
-    /* Alinhamento do conteúdo */
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 
+    /* Mantive seu transform original */
     transform: translate(1510px, -2800px);
 }
 
