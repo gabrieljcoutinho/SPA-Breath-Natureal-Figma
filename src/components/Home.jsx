@@ -29,7 +29,9 @@ const Home = () => {
            </div>
       </div>
 
-
+      <div className="comentario">
+        
+      </div>
 
     </div>
   )
