@@ -4,7 +4,7 @@
     display: flex;
     gap: 120px;
     cursor: pointer;
-    z-index: 10000;
+    z-index: 1023000;
 }
 
 .listaHeader {
@@ -13,12 +13,14 @@
     padding-left: 25rem;
     padding-top: 2rem;
     cursor: pointer;
+    z-index: 1023000;
 }
 
 .li-linkHeader {
     list-style-type: none;
     text-decoration: none;
     cursor: pointer;
+    z-index: 1023000;
 }
 
 .linkHeader {
@@ -26,9 +28,11 @@
     font-family: 'Montserrat';
     text-decoration: none;
     cursor: pointer;
+    z-index: 1023000;
 }
 
 .linkHeader:hover {
     text-decoration: underline;
     cursor: pointer;
+    z-index: 1023000;
 }
