@@ -72,7 +72,7 @@ const Home = () => {
         <img src={imgPromocao2} alt="" className='imgPromocao' />
         <div className="conteudo2">
           <h5>For Small Decs Ai Plat</h5>
-          <p className='paragrfoPriemraCompra'>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+          <p className='paragrfoPriemraCompra2'>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
           <span className='valor'>Rs. 579,00</span>
           <br /><br /><br />
           <button class="btn-explore">Explore</button>
