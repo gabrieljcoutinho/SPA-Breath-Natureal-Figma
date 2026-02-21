@@ -210,9 +210,9 @@ h4 {
 .promocaoPlanta{
     border: 1px solid rgba(255, 255, 255, 0.2);
     background: rgba(255, 255, 255, 0.1);
-    width: 1000px;
+    width: 1500px;
     height: 300px;
     padding: 20px;
     border-radius: 15px;
-    transform: translate(100px, -2800px);
+    transform: translate(200px, -2800px);
 }
