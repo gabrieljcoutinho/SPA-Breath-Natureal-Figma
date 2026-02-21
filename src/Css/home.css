@@ -71,13 +71,13 @@ h4 {
 .buyPlant {
     font-family: 'Inter', sans-serif;
     color: #fff;
-
     width: 300px;
-    /* Reduzi o padding de 40px para 20px (topo/baixo) */
-    padding: 20px 20px;
+
+    /* Diminuí o padding do topo e quase zerei o da base */
+    padding: 10px 20px 5px 20px;
+
     border-radius: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
-
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
@@ -86,31 +86,33 @@ h4 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-
-    /* Mantive seu transform original */
     transform: translate(1510px, -2800px);
+
+    /* Impede que a div estique além do necessário */
+    height: auto;
 }
 
-
-/*Comrpar planta inical */
-
-.imgComprarImgPrincipal{
-    z-index: 1000px;
+.imgComprarImgPrincipal {
+    z-index: 1000; /* Removido o 'px' que estava incorreto */
     width: 300px;
     transform: translate(0px, -140px);
+
+    /* A MÁGICA ESTÁ AQUI: */
+    /* A margem negativa puxa o resto do conteúdo para cima, */
+    /* eliminando o buraco vazio que a imagem deixou ao subir */
+    margin-bottom: -120px;
 }
 
 .buyPlant p {
     font-size: 14px;
-    margin-bottom: 8px;
+    margin-bottom: 5px; /* Reduzido */
     font-weight: 300;
     color: rgba(255, 255, 255, 0.8);
-    /* Branco levemente transparente para o subtítulo */
 }
 
 .buyPlant h2 {
     font-size: 26px;
-    margin-bottom: 25px;
+    margin-bottom: 10px; /* Reduzido de 25px para 15px */
     font-weight: 500;
 }
 
@@ -118,7 +120,7 @@ h4 {
     background: transparent;
     color: #fff;
     border: 1.5px solid #fff;
-    padding: 12px 40px;
+    padding: 10px 40px; /* Reduzido levemente */
     border-radius: 12px;
     font-size: 16px;
     cursor: pointer;
