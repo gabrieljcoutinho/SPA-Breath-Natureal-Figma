@@ -2,8 +2,8 @@ import React from 'react'
 import "../Css/home.css"
 
 import imgFundoArvores from "../img/fundoInicialComImagem.png"
-
 import plantBuyNow from "../img/plantBuyNow.png"
+import userComentario from "../img/userComentario.png"
 
 const Home = () => {
   return (
@@ -31,6 +31,7 @@ const Home = () => {
 
       <div className="comentario">
               <h2>TEste</h2>
+              <img src={userComentario} alt="" />
       </div>
 
     </div>
