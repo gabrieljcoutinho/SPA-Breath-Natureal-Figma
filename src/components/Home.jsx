@@ -35,10 +35,12 @@ const Home = () => {
             <img src={userComentario} alt="" />
             <h2 className='tituloUser'>User</h2>
             </ul>
+         <ul className="avaliacaoUser">
+         <img src={starAvaliacaoUser} alt="" />
             <img src={starAvaliacaoUser} alt="" />
             <img src={starAvaliacaoUser} alt="" />
             <img src={starAvaliacaoUser} alt="" />
-            <img src={starAvaliacaoUser} alt="" />
+         </ul>
             <p className='comentarioUser'>Lorem ipsum dolor sit amet consectetur
               adipisicing elit. Laudantium porro quod
               quibusdam labore illo exercitationem aut.
