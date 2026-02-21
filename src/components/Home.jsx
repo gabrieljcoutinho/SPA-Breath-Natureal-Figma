@@ -32,7 +32,7 @@ const Home = () => {
       <div className="comentario">
             <ul className="imgEnome">
             <img src={userComentario} alt="" />
-            <h2>User</h2>
+            <h2 className='tituloUser'>User</h2>
             </ul>
       </div>
 
