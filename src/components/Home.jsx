@@ -4,6 +4,7 @@ import "../Css/home.css"
 import imgFundoArvores from "../img/fundoInicialComImagem.png"
 import plantBuyNow from "../img/plantBuyNow.png"
 import userComentario from "../img/userComentario.png"
+import starAvaliacaoUser from "../img/star.png"
 
 const Home = () => {
   return (
