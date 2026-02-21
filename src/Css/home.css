@@ -94,7 +94,7 @@ h4 {
 
 .imgComprarImgPrincipal {
     z-index: 1000; /* Removido o 'px' que estava incorreto */
-    width: 300px;
+    width: 350px;
     transform: translate(0px, -140px);
 
     /* A MÁGICA ESTÁ AQUI: */
@@ -133,5 +133,5 @@ h4 {
 }
 
 .movimetnacaoConteudoDentroDiv{
-    transform: translate(0px, -100px);
+    transform: translate(0px, -60px);
 }
