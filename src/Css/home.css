@@ -97,6 +97,7 @@ h4 {
 .imgComprarImgPrincipal{
     z-index: 1000px;
     width: 300px;
+    transform: translate(0px, -140px);
 }
 
 .buyPlant p {
