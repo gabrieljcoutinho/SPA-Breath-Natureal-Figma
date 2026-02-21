@@ -34,7 +34,7 @@ const Home = () => {
             <img src={userComentario} alt="" />
             <h2 className='tituloUser'>User</h2>
             </ul>
-            <p>Lorem ipsum dolor sit amet consectetur
+            <p className='comentarioUser'>Lorem ipsum dolor sit amet consectetur
               adipisicing elit. Laudantium porro quod
               quibusdam labore illo exercitationem aut.
               </p>
