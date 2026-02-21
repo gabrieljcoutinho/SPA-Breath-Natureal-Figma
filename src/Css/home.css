@@ -217,15 +217,6 @@ h4 {
     transform: translate(200px, -2800px);
 }
 
-.promocaoPlanta2 {
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    background: rgba(255, 255, 255, 0.1);
-    width: 1500px;
-    height: 380px;
-    padding: 20px;
-    border-radius: 100px;
-    transform: translate(200px, -2800px);
-}
 
 .imgPromocao {
     transform: translate(-150px, -400px);
@@ -285,4 +276,16 @@ h5 {
 .btn-explore:hover {
     background-color: rgba(255, 255, 255, 0.2);
     transform: scale(1.15);
+}
+
+
+
+.promocaoPlanta2 {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    width: 1500px;
+    height: 380px;
+    padding: 20px;
+    border-radius: 100px;
+    transform: translate(200px, -2800px);
 }
