@@ -17,7 +17,7 @@ const Home = () => {
 
 
       <div className="buyPlant">
-        <img src={plantBuyNow} alt="" className='imgComprarImgPrincipal' />
+      <img src={plantBuyNow} alt="" className='imgComprarImgPrincipal' />
            <div className="movimetnacaoConteudoDentroDiv">
            <p>Trendy House Plant</p>
             <h2>Calathea Plant</h2>
