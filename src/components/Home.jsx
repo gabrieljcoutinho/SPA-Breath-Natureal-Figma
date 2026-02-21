@@ -3,8 +3,8 @@ import "../Css/home.css"
 
 import imgFundoArvores from "../img/fundoInicialComImagem.png"
 import plantBuyNow from "../img/plantBuyNow.png"
-import userComentario from "../img/userComentario.png"
-import starAvaliacaoUser from "../img/star.png"
+import userComentario from "../img/userComentar"
+import imgPromocao from ".././img/plantaPromocao.png"
 
 const Home = () => {
   return (
@@ -48,7 +48,7 @@ const Home = () => {
       </div>
 
       <div className="promocaoPlanta">
-        
+
       </div>
 
     </div>
