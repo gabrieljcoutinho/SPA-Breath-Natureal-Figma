@@ -70,7 +70,7 @@ const Home = () => {
 
       <div className="promocaoPlanta2">
         <img src={imgPromocao2} alt="" className='imgPromocao' />
-        <div className="conteudo">
+        <div className="conteudo2">
           <h5>For Small Decs Ai Plat</h5>
           <p className='paragrfoPriemraCompra'>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
           <span className='valor'>Rs. 579,00</span>
