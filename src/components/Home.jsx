@@ -36,10 +36,10 @@ const Home = () => {
             <h2 className='tituloUser'>User</h2>
             </ul>
          <ul className="avaliacaoUser">
-         <img src={starAvaliacaoUser} alt="" />
-            <img src={starAvaliacaoUser} alt="" />
-            <img src={starAvaliacaoUser} alt="" />
-            <img src={starAvaliacaoUser} alt="" />
+         <img src={starAvaliacaoUser} alt="" className='imgStar' />
+            <img src={starAvaliacaoUser} alt="" className='imgStar' />
+            <img src={starAvaliacaoUser} alt="" className='imgStar' />
+            <img src={starAvaliacaoUser} alt="" className='imgStar' />
          </ul>
             <p className='comentarioUser'>Lorem ipsum dolor sit amet consectetur
               adipisicing elit. Laudantium porro quod
