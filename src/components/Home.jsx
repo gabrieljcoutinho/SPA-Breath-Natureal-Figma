@@ -60,7 +60,12 @@ const Home = () => {
         </div>
       </div>
 
-
+<br /><br /><br /><br />
+<br /><br /><br /><br />
+<br /><br /><br /><br />
+<br /><br /><br /><br />
+<br /><br /><br /><br />
+<br /><br /><br /><br />
 
       <div className="promocaoPlanta2">
         <img src={imgPromocao} alt="" className='imgPromocao' />
