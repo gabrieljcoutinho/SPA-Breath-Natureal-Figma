@@ -175,3 +175,7 @@ h4 {
     border-radius: 25%;
     transform: translate(10px, -2900px);
 }
+
+.imgEnome {
+    display: flex;
+}
