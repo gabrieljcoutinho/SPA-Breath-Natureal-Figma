@@ -14,6 +14,12 @@ const Home = () => {
      Optio voluptates mollitia eveniet soluta dignissimos excepturi nulla itaque. Excepturi illum libero qui nesciunt labore.</p>
 
 
+      <div className="buyPlant">
+            <p>Trendy House Plant</p>
+            <h2>Calathea Plant</h2>
+            <button>Buy Now</button>
+      </div>
+
     </div>
   )
 }
