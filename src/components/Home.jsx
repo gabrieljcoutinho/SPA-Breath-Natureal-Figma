@@ -50,6 +50,7 @@ const Home = () => {
 
       <div className="promocaoPlanta">
         <img src={imgPromocao} alt="" />
+        <div className="conteudo"></div>
       </div>
 
     </div>
