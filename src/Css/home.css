@@ -25,7 +25,109 @@ h4 {
 
 /* Plant Buy Now */
 .buyPlant {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     color: #fff;
-    border: 10px solid red;
+
+    /* Borda vermelha fina e arredondada conforme a imagem */
+    border: 2px solid #ff4d4d;
+    border-radius: 40px;
+
+    /* Fundo escuro opaco (apenas o fundo, não o conteúdo) */
+    background-color: rgba(0, 0, 0, 0.5);
+
+    /* Layout para ficar "em pé" e centralizado */
+    width: 280px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.imgComprarImgPrincipal {
+    width: 180px;
+    /* Ajuste conforme o tamanho da sua imagem */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Plant Buy Now */
+.buyPlant {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    /* Cor do texto */
+
+    /* Retângulo em pé com bordas bem arredondadas */
+    width: 300px;
+    padding: 40px 20px;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* Borda fina e suave */
+
+    /* Efeito de Fundo Branco Opaco (Glassmorphism) */
+    background: rgba(255, 255, 255, 0.15);
+    /* Branco com 15% de opacidade */
+    backdrop-filter: blur(15px);
+    /* Desfoca o que está atrás do fundo */
+    -webkit-backdrop-filter: blur(15px);
+    /* Suporte para Safari */
+
+    /* Alinhamento do conteúdo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.imgComprarImgPrincipal {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    /* Faz a imagem flutuar um pouco para fora se desejar, ou apenas centraliza */
+}
+
+.buyPlant p {
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+    /* Branco levemente transparente para o subtítulo */
+}
+
+.buyPlant h2 {
+    font-size: 26px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.buyPlant button {
+    background: transparent;
+    color: #fff;
+    border: 1.5px solid #fff;
+    padding: 12px 40px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buyPlant button:hover {
+    background: #fff;
+    color: #000;
 }
