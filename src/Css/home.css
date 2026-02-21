@@ -213,6 +213,6 @@ h4 {
     width: 1500px;
     height: 300px;
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 100px;
     transform: translate(200px, -2800px);
 }
