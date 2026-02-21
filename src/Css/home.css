@@ -135,3 +135,7 @@ h4 {
 .movimetnacaoConteudoDentroDiv{
     transform: translate(0px, -60px);
 }
+
+.movimetnaçãoBtn{
+    transform: translate(0px, 40px);
+}
