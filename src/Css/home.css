@@ -88,24 +88,27 @@ h4 {
     position: relative;
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
     transform: translate(700px, -2850px);
+    height: 200px;
 }
 
 /* Imagem flutuante */
 /* Imagem flutuante */
 .imgComprarImgPrincipal {
     /* Aumente o width para o tamanho desejado (ex: 150px ou 180px) */
-    width: 160px;
+    width: 260px;
     height: auto;
-    filter: drop-shadow(0 20px 30px rgba(0,0,0,0.3));
+    filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.3));
 
     /* Posicionamento absoluto para não afetar o layout da div */
     position: absolute;
     top: 0;
     left: 50%;
-    transform: translate(-50%, -70%); /* Centraliza e sobe a imagem */
+    transform: translate(-50%, -70%);
+    /* Centraliza e sobe a imagem */
 
     transition: transform 0.5s ease;
-    z-index: 10; /* Garante que fique acima de tudo */
+    z-index: 10;
+    /* Garante que fique acima de tudo */
 }
 
 .buyPlant:hover .imgComprarImgPrincipal {
