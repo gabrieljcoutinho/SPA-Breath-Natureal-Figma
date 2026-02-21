@@ -309,7 +309,7 @@ h5 {
 }
 
 
-.btn-explore {
+.btn-explore2 {
     /* Cores e Fundo */
     background-color: rgba(255, 255, 255, 0.1);
     /* Fundo levemente translúcido */
@@ -336,9 +336,7 @@ h5 {
 }
 
 /* Efeito ao passar o mouse */
-.btn-explore:hover {
+.btn-explore2:hover {
     background-color: rgba(255, 255, 255, 0.2);
     transform: scale(1.15);
 }
-
-
