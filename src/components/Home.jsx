@@ -47,6 +47,10 @@ const Home = () => {
               </p>
       </div>
 
+      <div className="promocaoPlanta">
+        
+      </div>
+
     </div>
   )
 }
