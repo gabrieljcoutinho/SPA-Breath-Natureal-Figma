@@ -33,8 +33,8 @@ const Home = () => {
             <ul className="imgEnome">
             <img src={userComentario} alt="" />
             <h2 className='tituloUser'>User</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro quod quibusdam labore illo exercitationem aut voluptates veritatis quae, laboriosam, animi magnam maxime rerum dolor saepe totam vitae magni doloribus.</p>
             </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro quod quibusdam labore illo exercitationem aut voluptates veritatis quae, laboriosam, animi magnam maxime rerum dolor saepe totam vitae magni doloribus.</p>
       </div>
 
     </div>
