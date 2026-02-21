@@ -6,6 +6,7 @@ import plantBuyNow from "../img/plantBuyNow.png"
 import userComentario from "../img/userComentario.png"
 import starAvaliacaoUser from "../img/star.png"
 import imgPromocao from "../img/plantaPromocao.png"
+import imgPromocao2 from "../img/plantaPromocao2.png"
 
 const Home = () => {
   return (
@@ -68,11 +69,11 @@ const Home = () => {
 <br /><br /><br /><br />
 
       <div className="promocaoPlanta2">
-        <img src={imgPromocao} alt="" className='imgPromocao' />
+        <img src={imgPromocao2} alt="" className='imgPromocao' />
         <div className="conteudo">
           <h5>For Small Decs Ai Plat</h5>
           <p className='paragrfoPriemraCompra'>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-          <span className='valor'>Rs. 599,00</span>
+          <span className='valor'>Rs. 579,00</span>
           <br /><br /><br />
           <button class="btn-explore">Explore</button>
         </div>
