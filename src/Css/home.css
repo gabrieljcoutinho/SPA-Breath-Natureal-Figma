@@ -220,3 +220,7 @@ h4 {
 .imgPromocao {
     transform: translate(-150px, -400px);
 }
+
+.conteudo{
+    transform: translate(100px, -300px);
+}
