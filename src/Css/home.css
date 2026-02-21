@@ -95,7 +95,7 @@ h4 {
 /* Imagem flutuante */
 .imgComprarImgPrincipal {
     /* Aumente o width para o tamanho desejado (ex: 150px ou 180px) */
-    width: 260px;
+    width: 460px;
     height: auto;
     filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.3));
 
@@ -119,7 +119,7 @@ h4 {
 .movimetnacaoConteudoDentroDiv {
     text-align: center;
     width: 100%;
-    transform: translate(0%, 140%);
+    transform: translate(0%, 130%);
 }
 
 .buyPlant p {
