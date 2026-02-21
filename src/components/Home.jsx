@@ -47,6 +47,7 @@ const Home = () => {
               quibusdam labore illo exercitationem aut.
               </p>
       </div>
+      <br /><br /><br /><br />
 
       <div className="promocaoPlanta">
         <img src={imgPromocao} alt="" className='imgPromocao' />
