@@ -289,3 +289,8 @@ h5 {
     border-radius: 100px;
     transform: translate(200px, -2800px);
 }
+
+.conteudo2 {
+    transform: translate(0px, -910px);
+    padding-left: 45rem;
+}
