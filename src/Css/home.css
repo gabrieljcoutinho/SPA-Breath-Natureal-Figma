@@ -27,4 +27,5 @@ h4 {
 .buyPlant {
     font-family: Inter;
     color: #fff;
+    border: 10px solid red;
 }
