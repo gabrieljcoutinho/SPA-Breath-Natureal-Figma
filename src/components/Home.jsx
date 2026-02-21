@@ -34,7 +34,10 @@ const Home = () => {
             <img src={userComentario} alt="" />
             <h2 className='tituloUser'>User</h2>
             </ul>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro quod quibusdam labore illo exercitationem aut voluptates veritatis quae, laboriosam, animi magnam maxime rerum dolor saepe totam vitae magni doloribus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Laudantium porro quod
+              quibusdam labore illo exercitationem aut.
+              </p>
       </div>
 
     </div>
