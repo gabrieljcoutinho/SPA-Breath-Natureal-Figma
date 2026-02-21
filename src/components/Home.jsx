@@ -56,7 +56,7 @@ const Home = () => {
           <p className='paragrfoPriemraCompra'>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
           <span className='valor'>Rs. 599/-</span>
           <br /><br /><br />
-          <button>Explore</button>
+          <button class="btn-explore">Explore</button>
         </div>
       </div>
 
