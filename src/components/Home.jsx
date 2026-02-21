@@ -55,7 +55,7 @@ const Home = () => {
           <h5>For Small Decs Ai Plat</h5>
           <p className='paragrfoPriemraCompra'>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
           <span className='valor'>Rs. 599/-</span>
-          <br />
+          <br /><br /><br />
           <button>Explore</button>
         </div>
       </div>
