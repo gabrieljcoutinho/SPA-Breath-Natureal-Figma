@@ -193,6 +193,7 @@ h4 {
     color: #fff;
 }
 
-.avaliacaoUser{
+.avaliacaoUser img {
     transform: translate(-50px, -18px);
+padding-left: 1rem;
 }
