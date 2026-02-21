@@ -195,5 +195,9 @@ h4 {
 
 .avaliacaoUser img {
     transform: translate(-50px, -18px);
-padding-left: 1rem;
+    padding-left: 1rem;
+}
+
+.imgStar {
+    width: 15px;
 }
