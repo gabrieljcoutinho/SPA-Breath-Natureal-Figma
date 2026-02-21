@@ -113,6 +113,7 @@ h4 {
 
 .buyPlant:hover .imgComprarImgPrincipal {
     width: 500px;
+    transition: 2.s;
 }
 
 /* Conteúdo de Texto */
