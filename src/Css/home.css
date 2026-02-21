@@ -207,7 +207,7 @@ h4 {
 
 /*Promoção*/
 
-.promocaoPlanta{
+.promocaoPlanta {
     border: 1px solid rgba(255, 255, 255, 0.2);
     background: rgba(255, 255, 255, 0.1);
     width: 1500px;
@@ -215,4 +215,8 @@ h4 {
     padding: 20px;
     border-radius: 100px;
     transform: translate(200px, -2800px);
+}
+
+.imgPromocao {
+    transform: translate(200px, -10px);
 }
