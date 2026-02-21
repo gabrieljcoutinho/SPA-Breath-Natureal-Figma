@@ -191,8 +191,8 @@ h4 {
 
 .comentarioUser {
     color: #fff;
-    transform: translate(5px, -40px);
-    /* line-height: 20px; */
+    transform: translate(5px, -20px);
+    line-height: 30px;
 }
 
 .avaliacaoUser img {
