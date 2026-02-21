@@ -62,7 +62,7 @@ const Home = () => {
 
 
 
-      <div className="promocaoPlanta">
+      <div className="promocaoPlanta2">
         <img src={imgPromocao} alt="" className='imgPromocao' />
         <div className="conteudo">
           <h5>For Small Decs Ai Plat</h5>
