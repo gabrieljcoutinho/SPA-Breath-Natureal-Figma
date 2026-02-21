@@ -167,6 +167,8 @@ h4 {
 
 /*Comentari ode users*/
 
-.comentario{
-    
+.comentario {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    width: 40px;
 }
