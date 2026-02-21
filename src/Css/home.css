@@ -93,6 +93,8 @@ h4 {
     flex-direction: column;
     align-items: center;
     text-align: center;
+
+    transform: translate(1510px, -2800px);
 }
 
 
