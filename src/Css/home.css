@@ -94,12 +94,7 @@ h4 {
 
 /*Comrpar planta inical */
 
-.imgComprarImgPrincipal {
-    width: 200px;
-    height: auto;
-    margin-bottom: 20px;
-    /* Faz a imagem flutuar um pouco para fora se desejar, ou apenas centraliza */
-}
+
 
 .buyPlant p {
     font-size: 14px;
