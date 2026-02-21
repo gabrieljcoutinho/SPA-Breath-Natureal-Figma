@@ -65,77 +65,90 @@ h4 {
 
 
 
-
-
-/* Plant Buy Now */
+/* Container Principal */
 .buyPlant {
     font-family: 'Inter', sans-serif;
     color: #fff;
-    width: 300px;
+    width: 320px;
+    padding: 20px;
 
-    /* Diminuí o padding do topo e quase zerei o da base */
-    padding: 10px 20px 5px 20px;
+    /* Centralização e Posicionamento */
+    /* Remova o transform: translate gigante e use margens ou flexbox no pai */
+    margin: 150px auto;
 
-    border-radius: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    transform: translate(1510px, -2800px);
-
-    /* Impede que a div estique além do necessário */
-    height: auto;
+    position: relative;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
 }
 
+/* Imagem flutuante */
 .imgComprarImgPrincipal {
-    z-index: 1000; /* Removido o 'px' que estava incorreto */
-    width: 350px;
-    transform: translate(0px, -140px);
+    width: 280px;
+    height: auto;
+    filter: drop-shadow(0 20px 30px rgba(0,0,0,0.3));
 
-    /* A MÁGICA ESTÁ AQUI: */
-    /* A margem negativa puxa o resto do conteúdo para cima, */
-    /* eliminando o buraco vazio que a imagem deixou ao subir */
-    margin-bottom: -120px;
+    /* Faz a planta "sair" para fora do card no topo */
+    margin-top: -140px;
+    margin-bottom: 10px;
+    transition: transform 0.5s ease;
+}
+
+.buyPlant:hover .imgComprarImgPrincipal {
+    transform: translateY(-10px) scale(1.05);
+}
+
+/* Conteúdo de Texto */
+.movimetnacaoConteudoDentroDiv {
+    text-align: center;
+    width: 100%;
 }
 
 .buyPlant p {
-    font-size: 14px;
-    margin-bottom: 5px; /* Reduzido */
-    font-weight: 300;
-    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .buyPlant h2 {
-    font-size: 26px;
-    margin-bottom: 10px; /* Reduzido de 25px para 15px */
-    font-weight: 500;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    background: linear-gradient(to bottom, #fff, #ccc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Botão Moderno */
+.movimetnaçãoBtn {
+    width: 100%;
 }
 
 .buyPlant button {
-    background: transparent;
-    color: #fff;
-    border: 1.5px solid #fff;
-    padding: 10px 40px; /* Reduzido levemente */
-    border-radius: 12px;
+    width: 100%;
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
     font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
 }
 
 .buyPlant button:hover {
-    background: #fff;
-    color: #000;
-}
-
-.movimetnacaoConteudoDentroDiv{
-    transform: translate(0px, -60px);
-}
-
-.movimetnaçãoBtn{
-    transform: translate(0px, 40px);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.4);
+    background: #f0f0f0;
 }
