@@ -280,6 +280,9 @@ h5 {
 
 
 
+
+
+
 .promocaoPlanta2 {
     border: 1px solid rgba(255, 255, 255, 0.2);
     background: rgba(255, 255, 255, 0.1);
@@ -293,4 +296,9 @@ h5 {
 .conteudo2 {
     transform: translate(0px, -910px);
     padding-left: 45rem;
+}
+
+.paragrfoPriemraCompra2 {
+    color: #fff;
+    font-family: 'Inter';
 }
