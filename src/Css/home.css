@@ -242,3 +242,37 @@ h5 {
     font-family: 'Inter';
     font-size: 40px;
 }
+
+
+
+.btn-explore {
+    /* Cores e Fundo */
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Fundo levemente translúcido */
+    color: #ffffff;
+    border: 1.5px solid #ffffff;
+    /* Borda branca fina */
+
+    /* Formato */
+    padding: 12px 40px;
+    border-radius: 12px;
+    /* Cantos arredondados como na imagem */
+
+    /* Tipografia */
+    font-family: sans-serif;
+    /* Use 'Inter' ou 'Roboto' se preferir */
+    font-size: 18px;
+    font-weight: 500;
+
+    /* Interatividade */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+    /* Efeito de vidro opcional */
+}
+
+/* Efeito ao passar o mouse */
+.btn-explore:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.02);
+}
